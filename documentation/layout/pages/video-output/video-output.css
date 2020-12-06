@@ -1,0 +1,64 @@
+.visual__container {
+  height: 30vh;
+  width: 50vh;
+  padding: 5px;
+
+  border-radius: 20px;
+  background-color: #a7da31;
+}
+
+.visual__footer {
+  margin-top: auto;
+
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 95%;
+}
+
+.visual__time {
+  margin: 5px auto;
+  grid-column-start: 1;
+
+  display: flex;
+}
+
+.visual__time > img {
+  opacity: 1;
+
+  margin-left: 5px;
+}
+
+.visual__watermark {
+  margin: 5px auto;
+  grid-column-start: 7;
+}
+
+.profile_picture {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_picture > img {
+  margin-top: 15%;
+  height: 15vh;
+  width: 15vh;
+  overflow: hidden;
+  
+  border-radius: 50px;
+}
+
+.volume_logo {
+  height: 0vh;
+}
+
+p {
+  color: white;
+  opacity: 0.7;
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
